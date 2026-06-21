@@ -1,0 +1,6 @@
+{
+  "name": "Día del Padre - Esteban",
+  "description": "Una hermosa y cálida aplicación interactiva para celebrar el Día del Padre de Esteban con recuerdos, tributos y felicitaciones de Francisca y Rafaella.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

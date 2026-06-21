@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-primary: #5A5A40;
+  --color-secondary: #8B5E3C;
+  --color-amber-gold: #E6E6DF;
+  --color-warm-bg: #f5f5f0;
+  --color-platinum: #E6E6DF;
+}
+
+body {
+  background-color: #f5f5f0;
+  color: #2D2D2A;
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+/* Custom aesthetic classes */
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+.scrapbook-paper {
+  background-image: radial-gradient(#8B5E3C12 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.scrapbook-notebook {
+  background-color: #f5f5f0;
+  background-image: linear-gradient(#e6e6df 1px, transparent 1px);
+  background-size: 100% 24px;
+}
+
+.card-pattern-dots {
+  background-image: radial-gradient(#5A5A4015 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+
+.card-pattern-stripes {
+  background-image: repeating-linear-gradient(45deg, #e6e6df 0, #e6e6df 1px, transparent 0, transparent 50%);
+  background-size: 12px 12px;
+}
+
+/* Custom scrollbar for beautiful columns */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2c7ce;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #72787e;
+}
